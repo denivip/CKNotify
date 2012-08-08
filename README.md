@@ -1,4 +1,4 @@
-#Quickstart
+#CKNotify Easy Start Guide
 
 ##Installing
 Download and copy the entire CKNotify/ into your XCode project, make sure these files are added
@@ -13,6 +13,8 @@ Download and copy the entire CKNotify/ into your XCode project, make sure these 
 ###Add: 
         #import "CKNotify.h"
 to your project's .pch file
+
+######If your code compiles you have successfully installed CKNotify!
 
 ##Presenting Banners (Alerts)
 ###Your first Alert
@@ -40,9 +42,9 @@ to your project's .pch file
 
 
 ##Important Details
-    Each alert by default will be dismissed when tapped. Use setTapAction: to disable/modify this behavior.
+Each alert by default will be dismissed when tapped. Use setTapAction: to disable/modify this behavior.
 
-    A duration <= 0 will cause the alert to persist forever and never be dismissed -- until tapped or removed programmatically 
+A duration <= 0 will cause the alert to persist forever and never be dismissed, until tapped or removed programmatically.
 
 
 ##Types of alerts
@@ -51,9 +53,9 @@ to your project's .pch file
     CKNotifyAlertTypeError    // Red, for warnings
 
 
-#Alert Locations
-    CKNotifyAlertLocationTop     // Alert will be tied to the top of the view
-    CKNotifyAlertLocationBottom  // Alert will be tied to the bottom of the view
+##Alert Locations
+    CKNotifyAlertLocationTop     // Alert will be anchored to the top of the view
+    CKNotifyAlertLocationBottom  // Alert will be anchored to the bottom of the view
 
 
 #Author
