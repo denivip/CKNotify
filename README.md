@@ -66,7 +66,9 @@ to your project's .pch file
 ##Author
 Matthew Schettler 2012 (mschettler@gmail.com)
 
-###Questions? Contact me personally http://mschettler.com/contact/ or via github,
+###Questions? Contact me personally via email above, http://mschettler.com/, or through github!
+
+###Read blogs? Try mine: http://mschettler.com/blog/
 
 Thanks to Kumar Mugunth for some helpful ideas
 
