@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C93885C1151D20D300E3C73D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93885C0151D20D300E3C73D /* UIKit.framework */; };
+		C93885C3151D20D300E3C73D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93885C2151D20D300E3C73D /* Foundation.framework */; };
+		C93885C5151D20D300E3C73D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93885C4151D20D300E3C73D /* CoreGraphics.framework */; };
+		C93885CB151D20D300E3C73D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C93885C9151D20D300E3C73D /* InfoPlist.strings */; };
+		C93885CD151D20D300E3C73D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C93885CC151D20D300E3C73D /* main.m */; };
+		C93885D1151D20D300E3C73D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93885D0151D20D300E3C73D /* AppDelegate.m */; };
+		C93885D4151D20D300E3C73D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93885D3151D20D300E3C73D /* FirstViewController.m */; };
+		C93885D6151D20D300E3C73D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885D5151D20D300E3C73D /* first.png */; };
+		C93885D8151D20D300E3C73D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885D7151D20D300E3C73D /* first@2x.png */; };
+		C93885DB151D20D300E3C73D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93885DA151D20D300E3C73D /* SecondViewController.m */; };
+		C93885DD151D20D300E3C73D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885DC151D20D300E3C73D /* second.png */; };
+		C93885DF151D20D300E3C73D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885DE151D20D300E3C73D /* second@2x.png */; };
+		C93885E2151D20D300E3C73D /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93885E0151D20D300E3C73D /* FirstViewController_iPhone.xib */; };
+		C93885E5151D20D300E3C73D /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93885E3151D20D300E3C73D /* FirstViewController_iPad.xib */; };
+		C93885E8151D20D300E3C73D /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93885E6151D20D300E3C73D /* SecondViewController_iPhone.xib */; };
+		C93885EB151D20D400E3C73D /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93885E9151D20D400E3C73D /* SecondViewController_iPad.xib */; };
+		C9388602151D217500E3C73D /* CKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C93885F3151D217500E3C73D /* CKAlertView.m */; };
+		C9388603151D217500E3C73D /* CKAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93885F4151D217500E3C73D /* CKAlertView.xib */; };
+		C9388604151D217500E3C73D /* CKNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = C93885F6151D217500E3C73D /* CKNotify.m */; };
+		C9388605151D217500E3C73D /* CKBluePanel.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885F8151D217500E3C73D /* CKBluePanel.png */; };
+		C9388606151D217500E3C73D /* CKBluePanel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885F9151D217500E3C73D /* CKBluePanel@2x.png */; };
+		C9388607151D217500E3C73D /* CKGreenPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885FA151D217500E3C73D /* CKGreenPanel.png */; };
+		C9388608151D217500E3C73D /* CKGreenPanel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885FB151D217500E3C73D /* CKGreenPanel@2x.png */; };
+		C9388609151D217500E3C73D /* CKRedPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885FC151D217500E3C73D /* CKRedPanel.png */; };
+		C938860A151D217500E3C73D /* CKRedPanel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885FD151D217500E3C73D /* CKRedPanel@2x.png */; };
+		C938860B151D217500E3C73D /* CKTickIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885FE151D217500E3C73D /* CKTickIcon.png */; };
+		C938860C151D217500E3C73D /* CKTickIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C93885FF151D217500E3C73D /* CKTickIcon@2x.png */; };
+		C938860D151D217500E3C73D /* CKWarningIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9388600151D217500E3C73D /* CKWarningIcon.png */; };
+		C938860E151D217500E3C73D /* CKWarningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9388601151D217500E3C73D /* CKWarningIcon@2x.png */; };
+		C986A673152415DF0000F545 /* CKInfoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C986A671152415DF0000F545 /* CKInfoIcon.png */; };
+		C986A674152415DF0000F545 /* CKInfoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C986A672152415DF0000F545 /* CKInfoIcon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C93885BC151D20D300E3C73D /* CKNotifyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKNotifyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93885C0151D20D300E3C73D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C93885C2151D20D300E3C73D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C93885C4151D20D300E3C73D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C93885C8151D20D300E3C73D /* CKNotifyExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CKNotifyExample-Info.plist"; sourceTree = "<group>"; };
+		C93885CA151D20D300E3C73D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C93885CC151D20D300E3C73D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C93885CE151D20D300E3C73D /* CKNotifyExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKNotifyExample-Prefix.pch"; sourceTree = "<group>"; };
+		C93885CF151D20D300E3C73D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C93885D0151D20D300E3C73D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C93885D2151D20D300E3C73D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C93885D3151D20D300E3C73D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C93885D5151D20D300E3C73D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C93885D7151D20D300E3C73D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C93885D9151D20D300E3C73D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C93885DA151D20D300E3C73D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C93885DC151D20D300E3C73D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C93885DE151D20D300E3C73D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C93885E1151D20D300E3C73D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		C93885E4151D20D300E3C73D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		C93885E7151D20D300E3C73D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		C93885EA151D20D400E3C73D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		C93885F2151D217500E3C73D /* CKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAlertView.h; sourceTree = "<group>"; };
+		C93885F3151D217500E3C73D /* CKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAlertView.m; sourceTree = "<group>"; };
+		C93885F4151D217500E3C73D /* CKAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKAlertView.xib; sourceTree = "<group>"; };
+		C93885F5151D217500E3C73D /* CKNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKNotify.h; sourceTree = "<group>"; };
+		C93885F6151D217500E3C73D /* CKNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKNotify.m; sourceTree = "<group>"; };
+		C93885F8151D217500E3C73D /* CKBluePanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CKBluePanel.png; sourceTree = "<group>"; };
+		C93885F9151D217500E3C73D /* CKBluePanel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CKBluePanel@2x.png"; sourceTree = "<group>"; };
+		C93885FA151D217500E3C73D /* CKGreenPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CKGreenPanel.png; sourceTree = "<group>"; };
+		C93885FB151D217500E3C73D /* CKGreenPanel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CKGreenPanel@2x.png"; sourceTree = "<group>"; };
+		C93885FC151D217500E3C73D /* CKRedPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CKRedPanel.png; sourceTree = "<group>"; };
+		C93885FD151D217500E3C73D /* CKRedPanel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CKRedPanel@2x.png"; sourceTree = "<group>"; };
+		C93885FE151D217500E3C73D /* CKTickIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CKTickIcon.png; sourceTree = "<group>"; };
+		C93885FF151D217500E3C73D /* CKTickIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CKTickIcon@2x.png"; sourceTree = "<group>"; };
+		C9388600151D217500E3C73D /* CKWarningIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CKWarningIcon.png; sourceTree = "<group>"; };
+		C9388601151D217500E3C73D /* CKWarningIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CKWarningIcon@2x.png"; sourceTree = "<group>"; };
+		C986A671152415DF0000F545 /* CKInfoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CKInfoIcon.png; sourceTree = "<group>"; };
+		C986A672152415DF0000F545 /* CKInfoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CKInfoIcon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C93885B9151D20D300E3C73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93885C1151D20D300E3C73D /* UIKit.framework in Frameworks */,
+				C93885C3151D20D300E3C73D /* Foundation.framework in Frameworks */,
+				C93885C5151D20D300E3C73D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C93885B1151D20D300E3C73D = {
+			isa = PBXGroup;
+			children = (
+				C93885F1151D217500E3C73D /* CKNotify */,
+				C93885C6151D20D300E3C73D /* CKNotifyExample */,
+				C93885BF151D20D300E3C73D /* Frameworks */,
+				C93885BD151D20D300E3C73D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C93885BD151D20D300E3C73D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C93885BC151D20D300E3C73D /* CKNotifyExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93885BF151D20D300E3C73D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93885C0151D20D300E3C73D /* UIKit.framework */,
+				C93885C2151D20D300E3C73D /* Foundation.framework */,
+				C93885C4151D20D300E3C73D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C93885C6151D20D300E3C73D /* CKNotifyExample */ = {
+			isa = PBXGroup;
+			children = (
+				C93885CF151D20D300E3C73D /* AppDelegate.h */,
+				C93885D0151D20D300E3C73D /* AppDelegate.m */,
+				C93885D2151D20D300E3C73D /* FirstViewController.h */,
+				C93885D3151D20D300E3C73D /* FirstViewController.m */,
+				C93885D5151D20D300E3C73D /* first.png */,
+				C93885D7151D20D300E3C73D /* first@2x.png */,
+				C93885D9151D20D300E3C73D /* SecondViewController.h */,
+				C93885DA151D20D300E3C73D /* SecondViewController.m */,
+				C93885DC151D20D300E3C73D /* second.png */,
+				C93885DE151D20D300E3C73D /* second@2x.png */,
+				C93885E0151D20D300E3C73D /* FirstViewController_iPhone.xib */,
+				C93885E3151D20D300E3C73D /* FirstViewController_iPad.xib */,
+				C93885E6151D20D300E3C73D /* SecondViewController_iPhone.xib */,
+				C93885E9151D20D400E3C73D /* SecondViewController_iPad.xib */,
+				C93885C7151D20D300E3C73D /* Supporting Files */,
+			);
+			path = CKNotifyExample;
+			sourceTree = "<group>";
+		};
+		C93885C7151D20D300E3C73D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C93885C8151D20D300E3C73D /* CKNotifyExample-Info.plist */,
+				C93885C9151D20D300E3C73D /* InfoPlist.strings */,
+				C93885CC151D20D300E3C73D /* main.m */,
+				C93885CE151D20D300E3C73D /* CKNotifyExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C93885F1151D217500E3C73D /* CKNotify */ = {
+			isa = PBXGroup;
+			children = (
+				C93885F5151D217500E3C73D /* CKNotify.h */,
+				C93885F6151D217500E3C73D /* CKNotify.m */,
+				C93885F2151D217500E3C73D /* CKAlertView.h */,
+				C93885F3151D217500E3C73D /* CKAlertView.m */,
+				C93885F4151D217500E3C73D /* CKAlertView.xib */,
+				C93885F7151D217500E3C73D /* Images */,
+			);
+			name = CKNotify;
+			path = ../../CKNotify;
+			sourceTree = "<group>";
+		};
+		C93885F7151D217500E3C73D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C93885F8151D217500E3C73D /* CKBluePanel.png */,
+				C93885F9151D217500E3C73D /* CKBluePanel@2x.png */,
+				C93885FA151D217500E3C73D /* CKGreenPanel.png */,
+				C93885FB151D217500E3C73D /* CKGreenPanel@2x.png */,
+				C93885FC151D217500E3C73D /* CKRedPanel.png */,
+				C93885FD151D217500E3C73D /* CKRedPanel@2x.png */,
+				C93885FE151D217500E3C73D /* CKTickIcon.png */,
+				C93885FF151D217500E3C73D /* CKTickIcon@2x.png */,
+				C9388600151D217500E3C73D /* CKWarningIcon.png */,
+				C9388601151D217500E3C73D /* CKWarningIcon@2x.png */,
+				C986A671152415DF0000F545 /* CKInfoIcon.png */,
+				C986A672152415DF0000F545 /* CKInfoIcon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C93885BB151D20D300E3C73D /* CKNotifyExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93885EE151D20D400E3C73D /* Build configuration list for PBXNativeTarget "CKNotifyExample" */;
+			buildPhases = (
+				C93885B8151D20D300E3C73D /* Sources */,
+				C93885B9151D20D300E3C73D /* Frameworks */,
+				C93885BA151D20D300E3C73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKNotifyExample;
+			productName = CKNotifyExample;
+			productReference = C93885BC151D20D300E3C73D /* CKNotifyExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C93885B3151D20D300E3C73D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C93885B6151D20D300E3C73D /* Build configuration list for PBXProject "CKNotifyExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C93885B1151D20D300E3C73D;
+			productRefGroup = C93885BD151D20D300E3C73D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93885BB151D20D300E3C73D /* CKNotifyExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C93885BA151D20D300E3C73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93885CB151D20D300E3C73D /* InfoPlist.strings in Resources */,
+				C93885D6151D20D300E3C73D /* first.png in Resources */,
+				C93885D8151D20D300E3C73D /* first@2x.png in Resources */,
+				C93885DD151D20D300E3C73D /* second.png in Resources */,
+				C93885DF151D20D300E3C73D /* second@2x.png in Resources */,
+				C93885E2151D20D300E3C73D /* FirstViewController_iPhone.xib in Resources */,
+				C93885E5151D20D300E3C73D /* FirstViewController_iPad.xib in Resources */,
+				C93885E8151D20D300E3C73D /* SecondViewController_iPhone.xib in Resources */,
+				C93885EB151D20D400E3C73D /* SecondViewController_iPad.xib in Resources */,
+				C9388603151D217500E3C73D /* CKAlertView.xib in Resources */,
+				C9388605151D217500E3C73D /* CKBluePanel.png in Resources */,
+				C9388606151D217500E3C73D /* CKBluePanel@2x.png in Resources */,
+				C9388607151D217500E3C73D /* CKGreenPanel.png in Resources */,
+				C9388608151D217500E3C73D /* CKGreenPanel@2x.png in Resources */,
+				C9388609151D217500E3C73D /* CKRedPanel.png in Resources */,
+				C938860A151D217500E3C73D /* CKRedPanel@2x.png in Resources */,
+				C938860B151D217500E3C73D /* CKTickIcon.png in Resources */,
+				C938860C151D217500E3C73D /* CKTickIcon@2x.png in Resources */,
+				C938860D151D217500E3C73D /* CKWarningIcon.png in Resources */,
+				C938860E151D217500E3C73D /* CKWarningIcon@2x.png in Resources */,
+				C986A673152415DF0000F545 /* CKInfoIcon.png in Resources */,
+				C986A674152415DF0000F545 /* CKInfoIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C93885B8151D20D300E3C73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93885CD151D20D300E3C73D /* main.m in Sources */,
+				C93885D1151D20D300E3C73D /* AppDelegate.m in Sources */,
+				C93885D4151D20D300E3C73D /* FirstViewController.m in Sources */,
+				C93885DB151D20D300E3C73D /* SecondViewController.m in Sources */,
+				C9388602151D217500E3C73D /* CKAlertView.m in Sources */,
+				C9388604151D217500E3C73D /* CKNotify.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C93885C9151D20D300E3C73D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93885CA151D20D300E3C73D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C93885E0151D20D300E3C73D /* FirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93885E1151D20D300E3C73D /* en */,
+			);
+			name = FirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C93885E3151D20D300E3C73D /* FirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93885E4151D20D300E3C73D /* en */,
+			);
+			name = FirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		C93885E6151D20D300E3C73D /* SecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93885E7151D20D300E3C73D /* en */,
+			);
+			name = SecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C93885E9151D20D400E3C73D /* SecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93885EA151D20D400E3C73D /* en */,
+			);
+			name = SecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C93885EC151D20D400E3C73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C93885ED151D20D400E3C73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C93885EF151D20D400E3C73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CKNotifyExample/CKNotifyExample-Prefix.pch";
+				INFOPLIST_FILE = "CKNotifyExample/CKNotifyExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos4.3;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C93885F0151D20D400E3C73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CKNotifyExample/CKNotifyExample-Prefix.pch";
+				INFOPLIST_FILE = "CKNotifyExample/CKNotifyExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos4.3;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C93885B6151D20D300E3C73D /* Build configuration list for PBXProject "CKNotifyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93885EC151D20D400E3C73D /* Debug */,
+				C93885ED151D20D400E3C73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93885EE151D20D400E3C73D /* Build configuration list for PBXNativeTarget "CKNotifyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93885EF151D20D400E3C73D /* Debug */,
+				C93885F0151D20D400E3C73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C93885B3151D20D300E3C73D /* Project object */;
+}
