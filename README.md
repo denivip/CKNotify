@@ -52,7 +52,7 @@ to your project's .pch file
 ##Important Details
 - Each alert by default will be dismissed when tapped. Use setTapAction: to disable/modify this behavior, set selector to nil to disable.
 - A duration <= 0 will cause the alert to persist forever until tapped or removed programmatically.
-- CKNotify supports mutiple alerts on the screen at once. Alerts will stack, and fade out when their timers expire or until they are cleared via other means, i.e. [[CKNotify sharedInstance] dismissAllAlerts];
+- CKNotify supports multiple alerts on the screen at once. Alerts will stack and fade out as usual when their timers expire or when they are cleared via other means, i.e. [[CKNotify sharedInstance] dismissAllAlerts];
 
 ##Types of alerts
     CKNotifyAlertTypeSuccess  // Green, to indicate success
