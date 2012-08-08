@@ -50,8 +50,8 @@ to your project's .pch file
 
 
 ##Important Details
-- Each alert by default will be dismissed when tapped. Use setTapAction: to disable/modify this behavior.
-- A duration <= 0 will cause the alert to persist forever and never be dismissed, until tapped or removed programmatically.
+- Each alert by default will be dismissed when tapped. Use setTapAction: to disable/modify this behavior, set selector to nil to disable.
+- A duration <= 0 will cause the alert to persist forever until tapped or removed programmatically.
 
 ##Types of alerts
     CKNotifyAlertTypeSuccess  // Green, to indicate success
@@ -66,11 +66,16 @@ to your project's .pch file
 ##Author
 Matthew Schettler 2012 (mschettler@gmail.com)
 
-###Questions? Contact me personally http://mschettler.com/contact/ or via github,
+###Questions? Contact me personally via email above, http://mschettler.com/, or through github!
+
+###Read blogs? Try mine: http://mschettler.com/blog/
 
 Thanks to Kumar Mugunth for some helpful ideas
 
+##Release Notes
 
+Version 1.1 - Release 8/8/2012
+* Code appears completely stable, ready for public. Releasing to github, hoping to find those interested in co-development!
 
 #Copyright and license
 Copyright 2012 Matthew Schettler
