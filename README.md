@@ -1,5 +1,13 @@
 #CKNotify Easy Start Guide
 
+##What is it?
+CKNotify is a framework for iOS, designed for both the iPhone and iPad. It provides easy-to-use banner style alerts which drop down in a view and display relevant information to the user. 
+
+CKNotify makes it easy to attach swipe left or right selectors to the banners, giving a unique way to receive user interface feedback.
+
+#Example
+[ ![Image](https://raw.github.com/mschettler/CKNotify/master/Example/example_alert.png "CKNotify - Example Alert") ](http://google.com "Google")
+
 ##Installing
 Download and copy the entire CKNotify/ into your Xcode project, make sure these files are added
 
