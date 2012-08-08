@@ -1,15 +1,23 @@
-
-#Quickstart
+#CKNotify Easy Start Guide
 
 ##Installing
+Download and copy the entire CKNotify/ into your Xcode project, make sure these files are added
 
-	Download and copy all files into your XCode project. 
-	Add: 
-		#import "CKNotify.h"
-	to your project's .pch file
+        CKAlertView.h
+        CKAlertView.m
+        CKAlertView.xib
+        CKNotify.h
+        CKNotify.m
+        Images/
+        
+###Add: 
+        #import "CKNotify.h"
+to your project's .pch file
 
+######If your code compiles you have successfully installed CKNotify!
 
-##Your first Alert
+##Presenting Banners (Alerts)
+###Your first Alert
 
 
     [[CKNotify sharedInstance] presentAlert:CKNotifyAlertTypeError
@@ -19,7 +27,7 @@
                                 forDuration:4.0];
 
 
-##Easy alert with bound swipe actions
+###Easy alert with bound swipe actions
 
 
     CKAlertView *alert = [[CKNotify sharedInstance] presentAlert:CKNotifyAlertTypeError
@@ -33,25 +41,24 @@
     [alert setTapAction:@selector(didTap) onTarget:self withObject:nil];
 
 
-#Details
-	Each alert by default will be dismissed when tapped. Use setTapAction: to disable/modify this behavior.
+##Important Details
+- Each alert by default will be dismissed when tapped. Use setTapAction: to disable/modify this behavior.
+- A duration <= 0 will cause the alert to persist forever and never be dismissed, until tapped or removed programmatically.
 
-	A duration <= 0 will cause the alert to persist forever and never be dismissed -- until tapped or removed programmatically 
+##Types of alerts
+    CKNotifyAlertTypeSuccess  // Green, to indicate success
+    CKNotifyAlertTypeInfo     // Blue, for information
+    CKNotifyAlertTypeError    // Red, for warnings
 
-
-#Types of alerts
-    CKNotifyAlertTypeSuccess  // green
-    CKNotifyAlertTypeInfo	  // blue
-    CKNotifyAlertTypeError    // red
-
-
-#Alert Locations
-    CKNotifyAlertLocationTop     // Alert will be tied to the top of the view
-    CKNotifyAlertLocationBottom  // Alert will be tied to the bottom of the view
+##Alert Locations
+    CKNotifyAlertLocationTop     // Alert will be anchored to the top of the view
+    CKNotifyAlertLocationBottom  // Alert will be anchored to the bottom of the view
 
 
-#Author
+##Author
 Matthew Schettler 2012 (mschettler@gmail.com)
+
+###Questions? Contact me personally http://mschettler.com/contact/ or via github,
 
 Thanks to Kumar Mugunth for some helpful ideas
 
