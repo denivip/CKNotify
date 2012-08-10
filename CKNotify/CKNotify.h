@@ -3,10 +3,13 @@
 //  cknotify
 //
 //  Created by Matthew Schettler (mschettler@gmail.com, mschettler.com) on 3/19/12.
+//  Fork this project at https://github.com/mschettler/CKNotify
 //  Copyright (c) 2012 CKDesign. All rights reserved.
 //
 //  Version: 1.1
+//
 //  Don't forget to    #import "CKNotify.h"    in your .pch file
+//
 
 
 #import <Foundation/Foundation.h>

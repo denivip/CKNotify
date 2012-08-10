@@ -3,16 +3,18 @@
 //  cknotify
 //
 //  Created by Matthew Schettler (mschettler@gmail.com, mschettler.com) on 3/19/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Fork this project at https://github.com/mschettler/CKNotify
+//  Copyright (c) 2012. All rights reserved.
 //
+//  Version: 1.1
+//
+
 
 #import "CKAlertView.h"
 #import "CKNotify.h"
 
-
 @implementation CKAlertView
 @synthesize uniqueID, selectorTarget, onTapSelector, selectorObject, myLocation, inView;
-
 
 - (id)init {
     
@@ -20,6 +22,7 @@
 
     self.uniqueID = [NSString stringWithFormat:@"%p", self];
 //    NSLog(@"new alert with uniqueID = %@", self.uniqueID);
+
     isDismissing = NO;
     
     extraDuration = 0.0;

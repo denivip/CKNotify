@@ -3,8 +3,13 @@
 //  cknotify
 //
 //  Created by Matthew Schettler (mschettler@gmail.com, mschettler.com) on 3/19/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Fork this project at https://github.com/mschettler/CKNotify
+//  Copyright (c) 2012. All rights reserved.
 //
+//  Version: 1.1
+//
+
+
 
 #import "CKNotify.h"
 
