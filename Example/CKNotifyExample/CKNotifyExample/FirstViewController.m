@@ -84,7 +84,7 @@
 
 - (void)blue {
     
-    [[CKNotify sharedInstance] presentAlert:CKNotifyAlertTypeInfo withTitle:@"You have been disconneted." andBody:nil inView:self.view forDuration:DEMO_DURATION];
+    [[CKNotify sharedInstance] presentAlert:CKNotifyAlertTypeInfo withTitle:@"You have been disconnected." andBody:nil inView:self.view forDuration:DEMO_DURATION];
     
 }
 
