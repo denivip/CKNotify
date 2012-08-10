@@ -2,7 +2,7 @@
 //  main.m
 //  CKNotifyExample
 //
-//  Created by Matthew Schettler on 3/23/12.
+//  Created by Matthew Schettler (mschettler@gmail.com, mschettler.com) on 3/23/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 

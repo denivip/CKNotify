@@ -2,7 +2,7 @@
 //  CKNotify.m
 //  cknotify
 //
-//  Created by Matthew Schettler on 3/19/12.
+//  Created by Matthew Schettler (mschettler@gmail.com, mschettler.com) on 3/19/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 

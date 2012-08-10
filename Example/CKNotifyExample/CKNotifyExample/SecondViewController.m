@@ -2,7 +2,7 @@
 //  SecondViewController.m
 //  CKNotifyExample
 //
-//  Created by Matthew Schettler on 3/23/12.
+//  Created by Matthew Schettler (mschettler@gmail.com, mschettler.com) on 3/23/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -10,8 +10,8 @@
 
 @implementation SecondViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"Advanced";
@@ -80,17 +80,17 @@
     UIAlertView *a = [[UIAlertView alloc] initWithTitle:title message:nil delegate:nil cancelButtonTitle:@"Thanks" otherButtonTitles:nil];
     [a show];
     [a release];
+    
 }
 
 
 - (void)red {
     
-
-        [[CKNotify sharedInstance] presentAlert:CKNotifyAlertTypeError
-                                      withTitle:@"You have been logged out"
-                                        andBody:nil
-                                         inView:self.view
-                                    forDuration:5.0];
+    [[CKNotify sharedInstance] presentAlert:CKNotifyAlertTypeError
+                                  withTitle:@"You have been logged out"
+                                    andBody:nil
+                                     inView:self.view
+                                forDuration:5.0];
 
 }
 
@@ -111,7 +111,7 @@
     [[CKNotify sharedInstance] dismissAllAlerts];
     
     // you could also use this call
-//    [[CKNotify sharedInstance] dismissAllAlertsInView:self.view];
+    // [[CKNotify sharedInstance] dismissAllAlertsInView:self.view];
 
 }
 
