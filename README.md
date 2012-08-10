@@ -64,6 +64,8 @@ to your project's .pch file
     CKNotifyAlertLocationTop     // Alert will be anchored to the top of the view
     CKNotifyAlertLocationBottom  // Alert will be anchored to the bottom of the view
 
+##Going Deeper
+View the example project for more examples and utility functions
 
 ##Author
 Matthew Schettler 2012 (mschettler@gmail.com)
