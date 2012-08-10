@@ -18,7 +18,6 @@
 
         // Don't forget to    #import "CKNotify.h"    in your .pch file
 
-        
         int y = [UIScreen mainScreen].bounds.size.height - 320;
         int w = [UIScreen mainScreen].bounds.size.width - 10;
         
@@ -49,6 +48,7 @@
 
         self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"retina_wood"]];
 
+        self.tabBarItem.image = [UIImage imageNamed:@"second"];
         
     }
     return self;

@@ -135,12 +135,8 @@
 				C93885D0151D20D300E3C73D /* AppDelegate.m */,
 				C93885D2151D20D300E3C73D /* FirstViewController.h */,
 				C93885D3151D20D300E3C73D /* FirstViewController.m */,
-				C93885D5151D20D300E3C73D /* first.png */,
-				C93885D7151D20D300E3C73D /* first@2x.png */,
 				C93885D9151D20D300E3C73D /* SecondViewController.h */,
 				C93885DA151D20D300E3C73D /* SecondViewController.m */,
-				C93885DC151D20D300E3C73D /* second.png */,
-				C93885DE151D20D300E3C73D /* second@2x.png */,
 				C93885E0151D20D300E3C73D /* FirstViewController_iPhone.xib */,
 				C93885E3151D20D300E3C73D /* FirstViewController_iPad.xib */,
 				C93885E6151D20D300E3C73D /* SecondViewController_iPhone.xib */,
@@ -153,6 +149,10 @@
 		C93885C7151D20D300E3C73D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C93885D5151D20D300E3C73D /* first.png */,
+				C93885D7151D20D300E3C73D /* first@2x.png */,
+				C93885DC151D20D300E3C73D /* second.png */,
+				C93885DE151D20D300E3C73D /* second@2x.png */,
 				C9E1A7D015D4E98400F7510B /* retina_wood_@2X.png */,
 				C9E1A7D115D4E98400F7510B /* retina_wood.png */,
 				C93885C8151D20D300E3C73D /* CKNotifyExample-Info.plist */,

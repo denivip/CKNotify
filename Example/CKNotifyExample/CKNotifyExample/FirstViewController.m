@@ -44,6 +44,8 @@
         [self.view addSubview:b];
         
         self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"retina_wood"]];
+        
+        self.tabBarItem.image = [UIImage imageNamed:@"first"];
 
     }
     return self;
