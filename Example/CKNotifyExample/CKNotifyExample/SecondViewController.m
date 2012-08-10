@@ -47,10 +47,13 @@
         [c setFrame:CGRectMake(5, y+33*3, w, 33)];
         [self.view addSubview:c];
 
+        self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"retina_wood"]];
+
         
     }
     return self;
 }
+
 
 - (void)green {
     
@@ -65,10 +68,11 @@
     [alert setTapAction:nil onTarget:nil withObject:nil];  // disable tap
     
     [alert setSwipeLeftAction:@selector(red) onTarget:self withObject:nil];
-    [alert setSwipeRightAction:@selector(swipeRight:) onTarget:self withObject:@"Matthew"];
+    [alert setSwipeRightAction:@selector(swipeRight:) onTarget:self withObject:@"John Doe"];
     
     
 }
+
 
 - (void)swipeRight:(NSString *)name {
     
@@ -77,6 +81,7 @@
     [a show];
     [a release];
 }
+
 
 - (void)red {
     
@@ -89,9 +94,14 @@
 
 }
 
+
 - (void)blue {
-    
-    [[CKNotify sharedInstance] presentAlert:CKNotifyAlertTypeInfo withTitle:@"I come from the depths!" andBody:nil inView:self.view forDuration:4.0 fromLocation:CKNotifyAlertLocationBottom];
+
+    if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad) {
+        [[CKNotify sharedInstance] presentAlert:CKNotifyAlertTypeInfo withTitle:@"CKNotifyAlertLocationBottom" andBody:@"You have triggered a CKAlert from the bottom of the view" inView:self.view forDuration:4.0 fromLocation:CKNotifyAlertLocationBottom];
+    } else {
+        [[CKNotify sharedInstance] presentAlert:CKNotifyAlertTypeInfo withTitle:@"Use CKNotifyAlertLocationBottom to trigger alerts to come from below" andBody:nil inView:self.view forDuration:4.0 fromLocation:CKNotifyAlertLocationBottom];
+    }
     
 }
 

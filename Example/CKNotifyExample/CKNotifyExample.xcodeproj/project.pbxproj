@@ -38,6 +38,8 @@
 		C938860E151D217500E3C73D /* CKWarningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9388601151D217500E3C73D /* CKWarningIcon@2x.png */; };
 		C986A673152415DF0000F545 /* CKInfoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C986A671152415DF0000F545 /* CKInfoIcon.png */; };
 		C986A674152415DF0000F545 /* CKInfoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C986A672152415DF0000F545 /* CKInfoIcon@2x.png */; };
+		C9E1A7D215D4E98400F7510B /* retina_wood_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E1A7D015D4E98400F7510B /* retina_wood_@2X.png */; };
+		C9E1A7D315D4E98400F7510B /* retina_wood.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E1A7D115D4E98400F7510B /* retina_wood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		C9388601151D217500E3C73D /* CKWarningIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CKWarningIcon@2x.png"; sourceTree = "<group>"; };
 		C986A671152415DF0000F545 /* CKInfoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CKInfoIcon.png; sourceTree = "<group>"; };
 		C986A672152415DF0000F545 /* CKInfoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CKInfoIcon@2x.png"; sourceTree = "<group>"; };
+		C9E1A7D015D4E98400F7510B /* retina_wood_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retina_wood_@2X.png"; sourceTree = "<group>"; };
+		C9E1A7D115D4E98400F7510B /* retina_wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retina_wood.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 		C93885C7151D20D300E3C73D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9E1A7D015D4E98400F7510B /* retina_wood_@2X.png */,
+				C9E1A7D115D4E98400F7510B /* retina_wood.png */,
 				C93885C8151D20D300E3C73D /* CKNotifyExample-Info.plist */,
 				C93885C9151D20D300E3C73D /* InfoPlist.strings */,
 				C93885CC151D20D300E3C73D /* main.m */,
@@ -216,7 +222,7 @@
 		C93885B3151D20D300E3C73D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 			};
 			buildConfigurationList = C93885B6151D20D300E3C73D /* Build configuration list for PBXProject "CKNotifyExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -262,6 +268,8 @@
 				C938860E151D217500E3C73D /* CKWarningIcon@2x.png in Resources */,
 				C986A673152415DF0000F545 /* CKInfoIcon.png in Resources */,
 				C986A674152415DF0000F545 /* CKInfoIcon@2x.png in Resources */,
+				C9E1A7D215D4E98400F7510B /* retina_wood_@2X.png in Resources */,
+				C9E1A7D315D4E98400F7510B /* retina_wood.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

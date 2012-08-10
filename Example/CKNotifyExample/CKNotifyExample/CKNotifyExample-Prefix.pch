@@ -13,5 +13,10 @@
     #import <Foundation/Foundation.h>
 #endif
 
+#define DEMO_DURATION 5.0
+
+
 
 #import "CKNotify.h"
+
+
