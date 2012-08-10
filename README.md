@@ -6,7 +6,8 @@ CKNotify is a framework for iOS, designed for both the iPhone and iPad. It provi
 CKNotify makes it easy to attach swipe left or right selectors to the banners, giving a unique way to receive user interface feedback.
 
 #Example
-[ ![Image](https://raw.github.com/mschettler/CKNotify/master/Example/example_alert.png "CKNotify - Example Alert") ](http://google.com "Google")
+[ ![Image](https://raw.github.com/mschettler/CKNotify/master/Example/example_iphone.png "CKNotify - iPhone Example") ]()
+[ ![Image](https://raw.github.com/mschettler/CKNotify/master/Example/example_alert.png "CKNotify - Example Alert") ]()
 
 ##Installing
 Download and copy the entire CKNotify/ into your Xcode project, make sure these files are added
@@ -63,6 +64,8 @@ to your project's .pch file
     CKNotifyAlertLocationTop     // Alert will be anchored to the top of the view
     CKNotifyAlertLocationBottom  // Alert will be anchored to the bottom of the view
 
+##Advanced Usage
+View the example project for more examples and utility functions
 
 ##Author
 Matthew Schettler 2012 (mschettler@gmail.com)
