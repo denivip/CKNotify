@@ -138,6 +138,13 @@ static CKNotify *sharedInstance = nil;
     
     assert(view && alert);
     
+    if (self.exclusiveAlerts) {
+        CKAlertView *lastAlert = (CKAlertView *)currentAlertsOrdered.lastObject;
+        if ([lastAlert.view.superview isEqual:view]) {
+            return;
+        }
+    }
+    
     const CGFloat viewWidth = view.frame.size.width;
     const CGFloat viewHeight = view.frame.size.height;
     const CGFloat alertHeight = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? 71 : 60;

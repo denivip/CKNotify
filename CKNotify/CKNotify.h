@@ -22,6 +22,7 @@
     
 }
 
+@property (nonatomic) BOOL exclusiveAlerts; //prevents presenting new alerts while some alert is visible
 
 // Generate an alert. The most commonly used function of the library. Will appear from the top
 - (CKAlertView *)presentAlert:(CKNotifyAlertType)type 
